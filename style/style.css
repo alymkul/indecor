@@ -1,0 +1,163 @@
+@import "./fonts.css";
+/* basic conf*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat",sans-serif;
+}
+button{
+    background: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* basic conf*/
+
+/* unique conf*/
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: 33.33333%;
+}
+.col-3{
+    width: 25%;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1060px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.section_title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+.section_desc{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+
+}
+.rounded-btn{
+    padding: 10px 46px;
+    border-radius: 37px;
+}
+/* unique conf*/
+
+/* haeder section*/
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 36px
+}
+.header_logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+    margin-right: 115px;
+}
+.header_link{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    margin-right: 21px;
+
+}
+/* haeder section*/
+
+/* hero section*/
+.hero{
+    position: relative;
+    height: 100vh;
+    padding-top:184px ;
+    background: url("../images/cover1.png")no-repeat center/cover;
+}
+.hero_title{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    width: 509px;
+}
+.hero_desc{
+    font-size: 20px;
+    line-height: 30px;
+    width: 376px;
+    text-align: left;
+    margin: 35px 0;
+}
+.hero_filled{
+    border: 1px solid #FFA62B;
+    background: #FFA62B;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.hero_hollow{
+    border: 1px solid #00A0C1;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #00A0C1;
+}
+.hero .container{
+    position: relative;
+    height: 100%;
+}
+.hero .row{
+    position: absolute;
+    width: 100%;
+    bottom: -19px;
+    gap: 30px;
+}
+.hero_card{
+    height: 210px;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    background: #fff;
+    padding: 35px 0 35px 40px;
+}
+
+.hero_sm-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+    margin: 10px 0;
+}
+.hero_sm-desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+
+}
+/* hero section*/
