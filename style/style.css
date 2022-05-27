@@ -7,6 +7,7 @@
 }
 body{
     font-family: "Montserrat",sans-serif;
+    background: #FAFAFA;;
 }
 button{
     background: none;
@@ -56,10 +57,10 @@ a{
 }
 .section_desc{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
     color: #737373;
-
 }
 .rounded-btn{
     padding: 10px 46px;
@@ -89,7 +90,6 @@ a{
     text-align: center;
     color: #737373;
     margin-right: 21px;
-
 }
 /* haeder section*/
 
@@ -110,7 +110,6 @@ a{
     font-size: 20px;
     line-height: 30px;
     width: 376px;
-    text-align: left;
     margin: 35px 0;
 }
 .hero_filled{
@@ -122,6 +121,10 @@ a{
     color: #FFFFFF;
     margin-right: 10px;
 }
+.hero_filled:hover{
+    background: #f3b96a;
+    transition: 0.6s;
+}
 .hero_hollow{
     border: 1px solid #00A0C1;
     font-weight: 700;
@@ -129,8 +132,13 @@ a{
     line-height: 28px;
     color: #00A0C1;
 }
+.hero_hollow:hover{
+    background: #00A0C1;
+    transition: 0.6s;
+    color: white;
+}
 .hero .container{
-    position: relative;
+    position:relative;
     height: 100%;
 }
 .hero .row{
@@ -144,20 +152,171 @@ a{
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
     background: #fff;
     padding: 35px 0 35px 40px;
+    transition:0.6s;
 }
-
 .hero_sm-title{
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #252B42;
     margin: 10px 0;
+    transition:0.6s;
 }
 .hero_sm-desc{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: #737373;
-
+    transition:0.6s;
+}
+.hero_card svg {
+    transition:0.6s;
+    fill:#00A0C1;
+}
+.hero_card:hover{
+    background: #00A0C1;
+}
+.hero_card:hover svg{
+    fill: #ffffff;
+}
+.hero_card:hover .hero_sm-title{
+    color: #ffffff;
 }
 /* hero section*/
+/* reason section*/
+.reason{
+    padding: 192px 0 80px;
+}
+.reason_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+
+}
+.reason_desc{
+    width: 511px;
+    margin: 10px auto 50px;
+}
+.reason .row{
+    gap: 40px;
+}
+.reason_card{
+    background: #fff;
+    text-align: center;
+    padding: 32px 0 30px;
+}
+.reason_number{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+.reason_md-desc{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+/* reason section*/
+/* practice section*/
+.practice{
+padding: 125px 0 81px;
+}
+.practice_title{
+    text-align: center;
+}
+.practice_desc{
+    width: 470px;
+    margin: 10px auto 45px;
+}
+.practice_com{
+    margin: 15px auto 30px ;
+}
+.practice_card{
+    background: #fff;
+
+}
+.practice .row{
+    gap: 40px;
+}
+.practice_content{
+    padding: 30px 29px 0;
+    height: 203px;
+}
+
+/* practice section*/
+
+/* about section*/
+.about{
+    padding: 100px 200px 100px;
+    height: 911px;
+    background: #fff;
+}
+.about_title{
+    text-align:  center;
+
+}
+.about-title{
+    margin: 0 0 10px 121px;
+    width: 324px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+.about_img{
+    position: absolute;
+    width: 597px;
+    height: 442px;
+    background: url("../images/cover.vedeo.png")no-repeat center/cover ;
+}
+.about_svg{
+    width: 98px;
+    position: relative;
+   top: 40%;
+    left:45%
+}
+.about_md-desc{
+    width: 330px;
+    margin-left: 121px;
+    text-align: left;
+}
+.about_desc{
+    width: 511px;
+    margin: 10px auto 100px;
+}
+.svg{
+    position: relative;
+    top: 10%;
+    margin-left: 121px;}
+.about_mdt-title {
+    margin-bottom: 5px;
+    width: 277px;
+    margin-left: 173px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+}
+.about_coment{
+    margin-left: 173px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+}
+.about_section-title{
+    position: relative;
+    margin:0 0 10px 50px;
+    width: 277px;
+}
+.svg_second{
+    position: relative;
+    margin-left: 121px;
+}
+.section_coment{
+    margin-left: 50px;
+}
+/* about section*/
