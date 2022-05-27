@@ -287,10 +287,7 @@ padding: 125px 0 81px;
     width: 511px;
     margin: 10px auto 100px;
 }
-.svg{
-    position: relative;
-    top: 10%;
-    margin-left: 121px;}
+
 .about_mdt-title {
     margin-bottom: 5px;
     width: 277px;
@@ -308,15 +305,15 @@ padding: 125px 0 81px;
     color: #737373;
 }
 .about_section-title{
-    position: relative;
-    margin:0 0 10px 50px;
+
+    margin:0 0 10px 20px;
     width: 277px;
 }
 .svg_second{
-    position: relative;
-    margin-left: 121px;
+   display: flex;
+    margin:50px 0 0 121px;
 }
 .section_coment{
-    margin-left: 50px;
+    margin:0 0 30px 170px;
 }
 /* about section*/
