@@ -35,11 +35,17 @@ a{
 .col-3{
     width: 25%;
 }
+.col-2{
+    width: 20%;
+}
 .d-flex{
     display: flex;
 }
 .align-center{
     align-items: center;
+}
+.flex-column{
+    flex-direction: column;
 }
 .justify-center{
     justify-content: center;
@@ -330,7 +336,7 @@ padding: 125px 0 81px;
     right: 0;
     bottom:20px;
     margin: 0 auto;
-    background: #16697A;
+    background: #087d93;
     width: 986px;
     height: 124px;
     padding: 0 50px;
@@ -340,7 +346,7 @@ padding: 125px 0 81px;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: #fff;
     width: 258px;
 }
 .clients_inp{
@@ -374,7 +380,159 @@ padding: 125px 0 81px;
     color: #FFFFFF;
     background: #FFA62B;
     border: 1px solid #E6E6E6;
-    border-radius: 0px 5px 5px 0px
-
+    border-radius: 0 5px 5px 0
 }
 /* clients section*/
+/* contact section*/
+.contact{
+    padding: 80px 0 148px;
+    background:  #F3F3F3;;
+}
+.contact_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+.contact_desc{
+    margin: 10px 0 80px;
+}
+.contact_card svg{
+    margin-bottom: 15px;
+}
+.contact_cards{
+    width: 984px;
+    margin: 0 auto;
+}
+.contact_card-light {
+    padding: 50px 0;
+    background: #fff;
+}
+.contact_card-dark{
+    padding: 80px 0;
+    background: #252B42;
+}
+.contact_card-dark .contact_email,
+.contact_card-dark .contact_btn,
+.contact_card-dark .contact_support {
+    color: #fff;
+}
+.contact_card-dark .contact_btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+}
+.contact_support{
+    margin: 15px 0 ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #252B42;
+}
+.contact_email{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #252B42;
+}
+.contact_btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    width: 160px;
+    height: 44px;
+
+}
+/* contact section*/
+/* footer section*/
+.footer_top{
+    height: 142px;
+}
+.footer_top .container{
+    height: 142px;
+}
+.footer_top-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+}
+.footer_top-desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    text-align: left;
+    margin-top: 10px;
+}
+.footer_top-btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    background: #FFA62B;
+    border-radius: 5px;
+    width: 160px;
+    height: 58px;
+}
+.footer_md{
+    background: #16697A;
+    height: 272px;
+    padding: 50px 0;
+}
+.footer_link{
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer_link:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_link-md{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom:20px
+}
+.footer_link.d-flex{
+    display: flex;
+}
+.footer_link svg{
+   margin-right: 10px;
+}
+.footer_botton{
+    height: 74px;
+}
+.footer_botton .container{
+    height: 74px;
+}
+.fa-brands{
+    margin-right: 20px;
+    font-size: 24px;
+}
+.fa-brands.fa-facebook-square{
+
+    color: #335BF5;
+}
+.fa-brands.fa-instagram{
+    color:  #E61F5A;;
+}
+.fa-brands.fa-twitter{
+    color: #21A6DF
+}
+.fa-brands.fa-youtube{
+    color: #E42F08
+}
+/* footer section*/
+
