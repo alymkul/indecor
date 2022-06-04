@@ -76,7 +76,9 @@ a{
     border-radius: 37px;
 }
 /* unique conf*/
-
+.header_burger{
+    display: none;
+}
 /* haeder section*/
 .header{
     position: absolute;
